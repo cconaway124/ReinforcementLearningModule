@@ -2,12 +2,16 @@
 name = "examples"
 version = "0.1.0"
 edition = "2021"
+resolver = "2"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-
+nannou = "0.18.1"
+rand = "0.8.5"
+reinforce = { path = "../reinforce" }
 
 [[example]]
 name = "maze"
 path = "./maze/main.rs"
+

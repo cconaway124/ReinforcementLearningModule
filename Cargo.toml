@@ -3,3 +3,4 @@ members = [
     "examples",
     "reinforce"
 ]
+resolver = "2"
